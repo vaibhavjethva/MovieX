@@ -1,10 +1,12 @@
+/* eslint-disable react/prop-types */
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { useSelector } from "react-redux";
 
 import "./style.scss";
 
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-import Img from "../../../components/lazyLoadimage/Img";
+import Img from "../../../components/lazyLoadimage/LazyLoadImage";
 import avatar from "../../../assets/avatar.png";
 
 const Cast = ({ data, loading }) => {

@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+// eslint-disable-next-line no-unused-vars
 import React, { useRef } from "react";
 import {
     BsFillArrowLeftCircleFill,
@@ -8,7 +10,7 @@ import { useSelector } from "react-redux";
 import dayjs from "dayjs";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import Img from "../lazyLoadimage/Img";
+import Img from "../lazyLoadimage/LazyLoadImage";
 import PosterFallback from "../../assets/no-poster.png";
 import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
