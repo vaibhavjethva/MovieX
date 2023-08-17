@@ -49,6 +49,7 @@ const SearchResult = () => {
     useEffect(() => {
         setPageNum(1);
         fetchInitialData();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [query]);
 
     return (
@@ -60,8 +61,8 @@ const SearchResult = () => {
                         <>
                             <div className="pageTitle">
                                 {`Search ${data?.total_results > 1
-                                        ? "results"
-                                        : "result"
+                                    ? "results"
+                                    : "result"
                                     } of '${query}'`}
                             </div>
                             <InfiniteScroll
