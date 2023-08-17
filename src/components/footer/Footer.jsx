@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import {
     FaFacebookF,
@@ -22,12 +23,7 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                    Film, also called motion picture or movie, series of still photographs on film, projected in rapid succession onto a screen by means of light. Because of the optical phenomenon known as persistence of vision, this gives the illusion of actual, smooth, and continuous movement.
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
