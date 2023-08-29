@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 
 import "./style.scss";
@@ -20,9 +22,8 @@ const SwitchTabs = ({ data, onTabChange }) => {
                 {data.map((tab, index) => (
                     <span
                         key={index}
-                        className={`tabItem ${
-                            selectedTab === index ? "active" : ""
-                        }`}
+                        className={`tabItem ${selectedTab === index ? "active" : ""
+                            }`}
                         onClick={() => activeTab(tab, index)}
                     >
                         {tab}

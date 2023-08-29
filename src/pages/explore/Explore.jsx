@@ -1,3 +1,5 @@
+/* eslint-disable no-unsafe-optional-chaining */
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
@@ -69,6 +71,7 @@ const Explore = () => {
         setSortby(null);
         setGenre(null);
         fetchInitialData();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [mediaType]);
 
     const onChange = (selectedItems, action) => {

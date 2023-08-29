@@ -1,8 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import ReactPlayer from "react-player/youtube";
 
 import "./style.scss";
 
+// eslint-disable-next-line react/prop-types
 const VideoPopup = ({ show, setShow, videoId, setVideoId }) => {
     const hidePopup = () => {
         setShow(false);
@@ -20,7 +22,7 @@ const VideoPopup = ({ show, setShow, videoId, setVideoId }) => {
                     controls
                     width="100%"
                     height="100%"
-                    // playing={true}
+                // playing={true}
                 />
             </div>
         </div>
